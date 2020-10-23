@@ -1,0 +1,127 @@
+[
+    {
+        "Key": "EXAMPLE",
+        "Value": {
+            "entries": [
+                {
+                    "Key": "Sphere",
+                    "Value": {
+                        "selected": false,
+                        "data": {
+                            "Position": {
+                                "Vector3Type": {
+                                    "Value": {
+                                        "x": -4.0,
+                                        "y": 3.114066,
+                                        "z": 0.0
+                                    },
+                                    "_vector3": {
+                                        "x": -4.0,
+                                        "y": 3.114066,
+                                        "z": 0.0
+                                    },
+                                    "InitValue": {
+                                        "x": -4.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "$type": "Vector3Type"
+                                }
+                            },
+                            "Color": {
+                                "ColorType": {
+                                    "_color": {
+                                        "r": 0.9737096,
+                                        "g": 0.1239753,
+                                        "b": 0.3928244,
+                                        "a": 1.0
+                                    },
+                                    "InitValue": {
+                                        "r": 0.0,
+                                        "g": 0.0,
+                                        "b": 0.0,
+                                        "a": 0.0
+                                    },
+                                    "$type": "ColorType"
+                                }
+                            },
+                            "Speed": {
+                                "FloatType": {
+                                    "_float": 10.0,
+                                    "InitValue": 0.0,
+                                    "$type": "FloatType"
+                                }
+                            },
+                            "Direction": {
+                                "FloatType": {
+                                    "_float": -1.0,
+                                    "InitValue": 0.0,
+                                    "$type": "FloatType"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": "Cube",
+                    "Value": {
+                        "selected": false,
+                        "data": {
+                            "Position": {
+                                "Vector3Type": {
+                                    "Value": {
+                                        "x": 4.0,
+                                        "y": 3.180194,
+                                        "z": 0.0
+                                    },
+                                    "_vector3": {
+                                        "x": 4.0,
+                                        "y": 3.180194,
+                                        "z": 0.0
+                                    },
+                                    "InitValue": {
+                                        "x": 4.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "$type": "Vector3Type"
+                                }
+                            },
+                            "Color": {
+                                "ColorType": {
+                                    "_color": {
+                                        "r": 0.570645,
+                                        "g": 0.02546525,
+                                        "b": 0.301217,
+                                        "a": 1.0
+                                    },
+                                    "InitValue": {
+                                        "r": 0.0,
+                                        "g": 0.0,
+                                        "b": 0.0,
+                                        "a": 0.0
+                                    },
+                                    "$type": "ColorType"
+                                }
+                            },
+                            "Speed": {
+                                "FloatType": {
+                                    "_float": 5.0,
+                                    "InitValue": 0.0,
+                                    "$type": "FloatType"
+                                }
+                            },
+                            "Direction": {
+                                "FloatType": {
+                                    "_float": 1.0,
+                                    "InitValue": 0.0,
+                                    "$type": "FloatType"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]
