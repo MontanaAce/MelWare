@@ -19,14 +19,14 @@ public class EnemyRangedAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > screenBounds.x * -1)
+        /*if (transform.position.x > screenBounds.x * -1)
         {
             Destroy(this.gameObject);
         }
         else if (transform.position.x < screenBounds.x)
         {
             Destroy(this.gameObject);
-        }
+        }*/
     }
 
     private void OnTriggerEnter2D(Collider2D other)
