@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1619668223757474155}
   - component: {fileID: 5542470814289787639}
   - component: {fileID: 2748756459464052938}
-  - component: {fileID: -1397355917264695074}
   m_Layer: 9
   m_Name: Laser
   m_TagString: Untagged
@@ -117,7 +116,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -146,16 +145,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackSpeed: 13
---- !u!114 &-1397355917264695074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63465793064879473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fea5bcaf845c10b42b18f904a123e0a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackSpeed: 5.5
