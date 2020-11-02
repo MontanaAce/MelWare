@@ -22,6 +22,11 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] float xMaxPosition;
     [SerializeField] float xMinPosition;
 
+    [SerializeField] bool upperLimitHit;
+    [SerializeField] bool lowerLimitHit;
+    [SerializeField] bool leftLimitHit;
+    [SerializeField] bool rightLimitHit;
+
     [SerializeField] Vector2 cameraVelocity;
 
     // Start is called before the first frame update
