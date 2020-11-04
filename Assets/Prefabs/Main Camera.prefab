@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 317478699043926100}
   - component: {fileID: 317478699043926101}
   - component: {fileID: 317478699043926122}
+  - component: {fileID: 317478698468689549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 317478699043926102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.8, y: -3.12, z: -10}
-  m_LocalScale: {x: 15, y: 15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -60,7 +61,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 23
+  orthographic size: 13
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -100,12 +101,42 @@ MonoBehaviour:
   player: {fileID: 0}
   playerMaxRadius: 0
   playerPositionRelative: {x: 0, y: 0}
-  sizeMultiple: 0.6666667
+  sizeMultiple: 0.25
   cameraMaxVelocityMag: 0
   cameraVelocityMag: 0
-  cameraSize: 23
-  yMaxPosition: 13
-  yMinPosition: 11
-  xMaxPosition: 50
-  xMinPosition: -7
+  cameraSize: 13
+  yMaxPosition: 51.41
+  yMinPosition: -54.84
+  xMaxPosition: 217.1
+  xMinPosition: -38
+  upperLimitHit: 0
+  lowerLimitHit: 0
+  leftLimitHit: 0
+  rightLimitHit: 0
   cameraVelocity: {x: 0, y: 0}
+--- !u!61 &317478698468689549
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317478699043926102}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 46.22222, y: 26}
+  m_EdgeRadius: 0

@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * @author Nate Nicholson
+ * class CameraMovement moves the camera towardds the player
+ */
 public class CameraMovement : MonoBehaviour
 {
     [SerializeField] Camera mainCamera;
@@ -17,15 +20,11 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] float cameraVelocityMag;
     [SerializeField] float cameraSize;
 
-    [SerializeField] float yMaxPosition;
-    [SerializeField] float yMinPosition;
-    [SerializeField] float xMaxPosition;
-    [SerializeField] float xMinPosition;
-
-    [SerializeField] bool upperLimitHit;
-    [SerializeField] bool lowerLimitHit;
-    [SerializeField] bool leftLimitHit;
-    [SerializeField] bool rightLimitHit;
+    // The camera bounds that determine where the camera can move
+    public bool upperLimitHit;
+    public bool lowerLimitHit;
+    public bool leftLimitHit;
+    public bool rightLimitHit;
 
     [SerializeField] Vector2 cameraVelocity;
 
@@ -44,6 +43,8 @@ public class CameraMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        ///Finds the player position relative to the camera, then moves the camera
+        ///toward the player at a scalable velocity.
         playerPositionRelative.Set
             (player.transform.position.x - mainCamera.transform.position.x,
             player.transform.position.y - mainCamera.transform.position.y);
@@ -60,19 +61,19 @@ public class CameraMovement : MonoBehaviour
         ///Determining if the camera is out of bounds, and if it is
         ///sets the according velocity so it doesn't continue to move in that
         ///direction.
-        if(transform.position.x < xMinPosition && cameraVelocity.x < 0)
+        if(leftLimitHit && cameraVelocity.x < 0)
         {
             cameraVelocity = new Vector2(0, cameraVelocity.y);
         }
-        if (transform.position.x > xMaxPosition && cameraVelocity.x > 0)
+        if (rightLimitHit && cameraVelocity.x > 0)
         {
             cameraVelocity = new Vector2(0, cameraVelocity.y);
         }
-        if (transform.position.y < yMinPosition && cameraVelocity.y < 0)
+        if (lowerLimitHit && cameraVelocity.y < 0)
         {
             cameraVelocity = new Vector2(cameraVelocity.x, 0);
         }
-        if (transform.position.y > yMaxPosition && cameraVelocity.y > 0)
+        if (upperLimitHit && cameraVelocity.y > 0)
         {
             cameraVelocity = new Vector2(cameraVelocity.x, 0);
         }
