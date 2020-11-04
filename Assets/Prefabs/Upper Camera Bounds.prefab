@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2299970787701923399}
   - component: {fileID: 2299970787701923403}
   - component: {fileID: 6482910531607642384}
-  - component: {fileID: 2891603323657175261}
   m_Layer: 0
   m_Name: Upper Camera Bounds
   m_TagString: Lower camera limit
@@ -143,20 +142,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9cc22fa067603624aa8ea633ef296a0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camera: {fileID: 0}
-  spriteRenderer: {fileID: 2299970787701923399}
---- !u!114 &2891603323657175261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2299970787701923396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 721e599a1c1b82348adc1a29f8cf9c7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 0}

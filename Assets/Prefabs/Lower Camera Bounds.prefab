@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 882268813561343686}
   - component: {fileID: 882268813561343687}
   - component: {fileID: 882268813561343691}
-  - component: {fileID: 4252226174495641585}
+  - component: {fileID: 6290239247805043661}
   m_Layer: 0
   m_Name: Lower Camera Bounds
   m_TagString: Lower camera limit
@@ -132,7 +132,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4252226174495641585
+--- !u!114 &6290239247805043661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 882268813561343684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 295b8dcd76ee0c4429c84fd4a2b81f54, type: 3}
+  m_Script: {fileID: 11500000, guid: 0227a7795a30c594a86d24471747eb7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 0}
