@@ -16,6 +16,8 @@ TagManager:
   - Right camera limit
   - Upper camera limit
   - Lower camera limit
+  - Environment
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -29,8 +31,8 @@ TagManager:
   - Player attack
   - Enemy attack
   - Enemy
-  - 
-  - 
+  - Platforms
+  - Walls
   - 
   - 
   - 
