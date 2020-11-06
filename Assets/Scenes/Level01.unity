@@ -278,6 +278,7 @@ GameObject:
   - component: {fileID: 509071433}
   - component: {fileID: 509071432}
   - component: {fileID: 509071431}
+  - component: {fileID: 509071434}
   m_Layer: 0
   m_Name: HealthPickup
   m_TagString: Untagged
@@ -370,12 +371,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509071430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.36, y: 0.29655397, z: -33.73034}
+  m_LocalPosition: {x: -2.5, y: 0, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &509071434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509071430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b91ccbea4f81aa42af7ece8459e05f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthAdd: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +809,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 60}
+  m_SizeDelta: {x: 300, y: 75}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1463190798
 MonoBehaviour:
@@ -819,11 +833,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 58
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -900,6 +914,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 696a51da539cdb7429de08113624dc73, type: 3}
+--- !u!1 &1549120762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 194419840777891077, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
+  m_PrefabInstance: {fileID: 194419841532857205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1549120763 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 194419840777891085, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
+  m_PrefabInstance: {fileID: 194419841532857205}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549120762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b84a3707c21d44fa46ed9aa2258f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1612875464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1475,6 +1505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2086727636}
+  - component: {fileID: 2086727637}
   m_Layer: 0
   m_Name: PlayerSpawn
   m_TagString: Untagged
@@ -1496,6 +1527,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2086727637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086727635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd544001c2295a48a7c41b1bffe45cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpawnPoint: {x: 0, y: 0, z: 0}
+  player: {fileID: 1549120762}
+  playerHealth: {fileID: 1549120763}
 --- !u!4 &2097161842 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 194419840777891079, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
@@ -1627,6 +1673,10 @@ PrefabInstance:
       propertyPath: healthText
       value: 
       objectReference: {fileID: 1463190798}
+    - target: {fileID: 194419840777891085, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
+      propertyPath: playerSpawn
+      value: 
+      objectReference: {fileID: 2086727637}
     - target: {fileID: 194419841010231845, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.001

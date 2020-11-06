@@ -8,7 +8,7 @@ public class HealthPickup : MonoBehaviour
     public int healthAdd = 5;
 
 
-    void Awake()
+    void OnEnable()
     {
         playerHealth = FindObjectOfType<PlayerHealth>();
     }
@@ -19,6 +19,10 @@ public class HealthPickup : MonoBehaviour
         {
             Destroy(gameObject);
             playerHealth.health += healthAdd;
+            if(playerHealth.health > playerHealth.maxHealth)
+            {
+                playerHealth.health = playerHealth.maxHealth;
+            }
             playerHealth.UpdateText();
         }
     }

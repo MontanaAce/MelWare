@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6524429149057200512}
   - component: {fileID: 6524429149057200513}
   - component: {fileID: 6524429149057200510}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4880,7 +4880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8263861033934971757}
   - component: {fileID: -473022072892228053}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: MuzzFlashPFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}

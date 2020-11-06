@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth;
     public GameObject deathEffect;
     public Text healthText;
+    public PlayerSpawn playerSpawn;
 
     private void Start()
     {
@@ -19,8 +20,8 @@ public class PlayerHealth : MonoBehaviour
     {
         if (health <= 0)
         {
-            Instantiate(deathEffect, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            ObjectPool.Spawn(deathEffect, transform.position, Quaternion.identity);
+            playerSpawn.RespawnPlayer();
         }
     }
 
@@ -30,7 +31,7 @@ public class PlayerHealth : MonoBehaviour
         health -= damage;
         UpdateText();
     }
-    private void UpdateText()
+    public void UpdateText()
     {
         healthText.text = health + "/" + maxHealth;
     }
