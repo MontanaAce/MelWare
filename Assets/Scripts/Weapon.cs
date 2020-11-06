@@ -8,7 +8,8 @@ public class Weapon : MonoBehaviour
 
 
     public GameObject muzzFlash;
-    public GameObject projectile;
+    public GameObject mainProjectile;
+    public GameObject grenadeProjectile;
     public Transform shotPoint;
 
     private float timeBtwShots;
@@ -25,7 +26,13 @@ public class Weapon : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 ObjectPool.Spawn(muzzFlash, shotPoint.position, transform.rotation);
-                Instantiate(projectile, shotPoint.position, transform.rotation);
+                Instantiate(mainProjectile, shotPoint.position, transform.rotation);
+                timeBtwShots = startTimeBtwShots;
+            }
+            if (Input.GetMouseButtonDown(1))
+            {
+                ObjectPool.Spawn(muzzFlash, shotPoint.position, transform.rotation);
+                Instantiate(grenadeProjectile, shotPoint.position, transform.rotation);
                 timeBtwShots = startTimeBtwShots;
             }
         }

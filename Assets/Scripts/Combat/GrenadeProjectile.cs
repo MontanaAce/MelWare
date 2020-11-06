@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public class GrenadeProjectile : MonoBehaviour
 {
+    //Initial speed of the grenade, in the direction of the cursor.
     public float speed;
-    public float lifeTime;
-    public float distance;
+    //Max damage taken, if at the point of contact.
     public int damage;
-    public LayerMask whatIsSolid;
 
-    public GameObject destroyEffect;
+    public float distance;
+    public LayerMask whatIsSolid;
 
     private void Start()
     {
-        Invoke("DestroyProjectile", lifeTime);
+        
     }
 
     private void FixedUpdate()
@@ -33,7 +33,7 @@ public class Projectile : MonoBehaviour
     }
     void DestroyProjectile()
     {
-        ObjectPool.Spawn(destroyEffect, transform.position, Quaternion.identity);
-        ObjectPool.Despawn(gameObject);
+        //ObjectPool.Spawn(destroyEffect, transform.position, Quaternion.identity);
+        //ObjectPool.Despawn(gameObject);
     }
 }
