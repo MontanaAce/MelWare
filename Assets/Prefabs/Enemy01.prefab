@@ -148,6 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 4
   deathEffect: {fileID: 8092615506543658870, guid: 0b20c380782e0434da362bff7ec7b9be, type: 3}
+  healthPickup: {fileID: 7342516097877629160, guid: f61df2f41d384124f9d6ab59408dad89, type: 3}
 --- !u!95 &761804288974813051
 Animator:
   serializedVersion: 3
