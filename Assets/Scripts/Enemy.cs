@@ -6,6 +6,8 @@ public class Enemy : MonoBehaviour
 {
     public int health;
     public GameObject deathEffect;
+    public GameObject healthPickup;
+    private int dropChance;
 
     private void Update()
     {
@@ -13,6 +15,11 @@ public class Enemy : MonoBehaviour
         {
             ObjectPool.Spawn(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            dropChance = Random.Range(1, 5);
+            if(dropChance == 2)
+            {
+                ObjectPool.Spawn(healthPickup, transform.position, Quaternion.identity);
+            }
         }
     }
 
