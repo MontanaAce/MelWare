@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     public GameObject healthPickup;
     private int dropChance;
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (health <= 0)
         {
