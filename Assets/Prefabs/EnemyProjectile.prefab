@@ -123,12 +123,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6147069c4e1cc2c43b9d6b3542474611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: 0
   speed: 10
   lifeTime: 10
   damage: 1
   whatIsSolid:
     serializedVersion: 2
-    m_Bits: 2304
+    m_Bits: 18688
   destroyEffect: {fileID: 8092615506543658870, guid: 2fa68ed7293569f4f9aafd405cac522a, type: 3}
 --- !u!96 &7849913826586898893
 TrailRenderer:

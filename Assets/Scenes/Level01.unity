@@ -1308,13 +1308,17 @@ PrefabInstance:
       propertyPath: dashMomeDropoff
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 194419840777891072, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 18432
+      objectReference: {fileID: 0}
     - target: {fileID: 194419840777891077, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 194419840777891078, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
       propertyPath: m_GravityScale
-      value: 7.5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 194419840777891079, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
       propertyPath: m_LocalPosition.x
