@@ -16,7 +16,7 @@ public class GrenadeProjectile : MonoBehaviour
     [SerializeField] private Vector2 grenadePitch;
     //Max damage taken, if at the point of contact.
     public int damage;
-
+    //
     public GameObject destroyEffect;
 
     public new Rigidbody2D rigidbody;
@@ -35,12 +35,24 @@ public class GrenadeProjectile : MonoBehaviour
         ObjectPool.Spawn(destroyEffect, transform.position, Quaternion.identity);
         ObjectPool.Despawn(gameObject);
     }
+    /*
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Hit!");
         foreach(string tag in TagFilterArray)
         {
             if(other.gameObject.CompareTag(tag))
+            {
+                DestroyProjectile();
+            }
+        }
+    }*/
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("Hit!");
+        foreach (string tag in TagFilterArray)
+        {
+            if (collision.gameObject.CompareTag(tag))
             {
                 DestroyProjectile();
             }

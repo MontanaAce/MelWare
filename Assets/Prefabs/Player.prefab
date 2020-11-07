@@ -137,7 +137,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &194419840777891072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,6 +214,7 @@ MonoBehaviour:
   maxHealth: 10
   deathEffect: {fileID: 8092615506543658870, guid: 30e6d9bc4711ca14fa5c75431187a84d, type: 3}
   healthText: {fileID: 0}
+  playerSpawn: {fileID: 0}
 --- !u!1 &194419840809654202
 GameObject:
   m_ObjectHideFlags: 0
@@ -5205,7 +5206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   offset: 0
   muzzFlash: {fileID: 8092615506543658870, guid: 836cfe00f6e2a0b4f93ca64a9c27e548, type: 3}
-  projectile: {fileID: 7560619352479132827, guid: 3011e8baf68951244a84d1f7a945cb57, type: 3}
+  mainProjectile: {fileID: 0}
+  grenadeProjectile: {fileID: 0}
   shotPoint: {fileID: 194419841115253304}
   startTimeBtwShots: 0.1
 --- !u!1 &194419841698309119
