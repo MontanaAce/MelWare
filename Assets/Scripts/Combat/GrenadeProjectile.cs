@@ -4,36 +4,46 @@ using UnityEngine;
 
 public class GrenadeProjectile : MonoBehaviour
 {
-    //Initial speed of the grenade, in the direction of the cursor.
-    public float speed;
+    //Takes the available tags and allows you to select them in the inpector
+    //without having to spell them directly.
+    [TagSelector]
+    public string[] TagFilterArray = new string[] { };
+
+    //Initial Force Magnitude of the grenade, to be measured in Newtons.
+    public float launchForceMag;
+    //The initial force that will be exerted on the grenade, in Newtons.
+    [SerializeField] private Vector2 launchForceVector;
+    [SerializeField] private Vector2 grenadePitch;
     //Max damage taken, if at the point of contact.
     public int damage;
 
-    public float distance;
-    public LayerMask whatIsSolid;
+    public GameObject destroyEffect;
+
+    public new Rigidbody2D rigidbody;
+
 
     private void Start()
     {
-        
-    }
-
-    private void FixedUpdate()
-    {
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.right, distance, whatIsSolid);
-        if (hitInfo.collider != null)
-        {
-            if (hitInfo.collider.CompareTag("Enemy"))
-            {
-                hitInfo.collider.GetComponent<Enemy>().TakeDamage(damage);
-            }
-            DestroyProjectile();
-        }
-
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        grenadePitch = Camera.main.ScreenToWorldPoint(Input.mousePosition)
+            - transform.position;
+        launchForceVector = grenadePitch.normalized * launchForceMag;
+        rigidbody.AddForce(launchForceVector, ForceMode2D.Impulse);
+        this.transform.rotation.Set(0, 0, 0, 0);
     }
     void DestroyProjectile()
     {
-        //ObjectPool.Spawn(destroyEffect, transform.position, Quaternion.identity);
-        //ObjectPool.Despawn(gameObject);
+        ObjectPool.Spawn(destroyEffect, transform.position, Quaternion.identity);
+        ObjectPool.Despawn(gameObject);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Hit!");
+        foreach(string tag in TagFilterArray)
+        {
+            if(other.gameObject.CompareTag(tag))
+            {
+                DestroyProjectile();
+            }
+        }
     }
 }

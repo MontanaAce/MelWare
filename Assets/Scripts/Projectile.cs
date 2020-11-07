@@ -17,7 +17,7 @@ public class Projectile : MonoBehaviour
         Invoke("DestroyProjectile", lifeTime);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.right, distance, whatIsSolid);
         if (hitInfo.collider != null)
@@ -29,7 +29,7 @@ public class Projectile : MonoBehaviour
             DestroyProjectile();
         }
 
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        transform.Translate(Vector2.right * speed * Time.fixedDeltaTime);
     }
     void DestroyProjectile()
     {
