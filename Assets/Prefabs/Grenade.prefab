@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6533375482693364626}
   - component: {fileID: 2979245888336584010}
   - component: {fileID: -6803329125469267905}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Grenade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!61 &2979245888336584010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -272,7 +272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3417360911091883104}
   - component: {fileID: 8722574172448901426}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Grenade Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
