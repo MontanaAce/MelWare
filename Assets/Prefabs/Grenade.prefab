@@ -281,7 +281,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3417360911091883104
 Transform:
   m_ObjectHideFlags: 0
@@ -389,6 +389,7 @@ MonoBehaviour:
   - Enemy
   maxDamage: 2
   boxCollider: {fileID: 4474209513603406363}
+  enemyRelative: {x: 0, y: 0}
   explosionForce: 2
 --- !u!50 &1335332285579045378
 Rigidbody2D:

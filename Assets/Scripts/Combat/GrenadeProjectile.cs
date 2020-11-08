@@ -33,8 +33,8 @@ public class GrenadeProjectile : MonoBehaviour
     /// </summary>
     void DestroyProjectile()
     {
-        ObjectPool.Spawn(destroyEffect, transform.position, Quaternion.identity);
         explosion.SetActive(true);
+        ObjectPool.Spawn(destroyEffect, transform.position, Quaternion.identity);
         ObjectPool.Despawn(gameObject);
     }
     /// <summary>
