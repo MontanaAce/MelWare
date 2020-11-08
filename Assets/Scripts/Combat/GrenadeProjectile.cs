@@ -16,12 +16,11 @@ public class GrenadeProjectile : MonoBehaviour
     [SerializeField] private Vector2 grenadePitch;
     //Max damage taken, if at the point of contact.
     public int damage;
-    //
+    //The animation that plays after the grenade is destroyed
     public GameObject destroyEffect;
 
     public new Rigidbody2D rigidbody;
-
-
+    //Start runs on the first frame
     private void Start()
     {
         grenadePitch = Camera.main.ScreenToWorldPoint(Input.mousePosition)
@@ -30,24 +29,19 @@ public class GrenadeProjectile : MonoBehaviour
         rigidbody.AddForce(launchForceVector, ForceMode2D.Impulse);
         this.transform.rotation.Set(0, 0, 0, 0);
     }
+    /// <summary>
+    /// Spawns the destroy effect and despawns the grenade
+    /// </summary>
     void DestroyProjectile()
     {
         ObjectPool.Spawn(destroyEffect, transform.position, Quaternion.identity);
         ObjectPool.Despawn(gameObject);
     }
-    /*
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Hit!");
-        foreach(string tag in TagFilterArray)
-        {
-            if(other.gameObject.CompareTag(tag))
-            {
-                DestroyProjectile();
-            }
-        }
-    }*/
-    private void OnCollisionEnter(Collision collision)
+    /// <summary>
+    /// Checks for the collision
+    /// </summary>
+    /// <param name="collision">The object the grenade is colliding with</param>
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("Hit!");
         foreach (string tag in TagFilterArray)

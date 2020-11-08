@@ -132,7 +132,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 7.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -152,19 +152,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   jumpForce: 20
-  defaultSpeed: 0
-  defaultJumpForce: 0
-  dashSpeed: 0
-  dashJumpBoost: 0
-  dashCooldown: 0
-  dashMomeDropoff: 0
+  defaultSpeed: 8
+  defaultJumpForce: 20
+  dashSpeed: 24
+  dashJumpBoost: 20
+  dashCooldown: 0.17
+  dashMomeDropoff: 1.5
   isGrounded: 0
   canDash: 0
-  groundCheck: {fileID: 0}
+  groundCheck: {fileID: 194419841698309118}
   checkRadius: 0.5
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 18432
   jumpTime: 0.15
   dashDropoffCalc: 0
 --- !u!95 &194419840777891075
@@ -5052,7 +5052,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194419841010231866}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.036, y: 0.078, z: -27.5336}
+  m_LocalPosition: {x: 0.001, y: 0.001, z: -27.5336}
   m_LocalScale: {x: 0.20000003, y: 0.20000003, z: 1}
   m_Children:
   - {fileID: 194419841497959499}
@@ -5134,7 +5134,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194419841497959497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1, y: -0.08, z: 27.5336}
+  m_LocalPosition: {x: -0.05, y: -0.01, z: 27.5336}
   m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children:
   - {fileID: 194419841115253304}
@@ -5206,8 +5206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   offset: 0
   muzzFlash: {fileID: 8092615506543658870, guid: 836cfe00f6e2a0b4f93ca64a9c27e548, type: 3}
-  mainProjectile: {fileID: 0}
-  grenadeProjectile: {fileID: 0}
+  mainProjectile: {fileID: 7560619352479132827, guid: 3011e8baf68951244a84d1f7a945cb57, type: 3}
+  grenadeProjectile: {fileID: 156762422219557398, guid: 7497761c47e01a145bc3197d6c0c8938, type: 3}
   shotPoint: {fileID: 194419841115253304}
   startTimeBtwShots: 0.1
 --- !u!1 &194419841698309119
@@ -5220,7 +5220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194419841698309118}
   m_Layer: 8
-  m_Name: feetpos
+  m_Name: Ground Check
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5234,7 +5234,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194419841698309119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.143, z: 0}
+  m_LocalPosition: {x: 0, y: -0.163, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 194419840777891079}

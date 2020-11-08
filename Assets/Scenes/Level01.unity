@@ -414,11 +414,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!4 &913156235 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 194419841698309118, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-  m_PrefabInstance: {fileID: 194419841532857205}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &924372691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1543,45 +1538,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 194419840777891072, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: groundCheck
-      value: 
-      objectReference: {fileID: 913156235}
-    - target: {fileID: 194419840777891072, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: defaultSpeed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419840777891072, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: defaultJumpForce
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419840777891072, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: dashSpeed
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419840777891072, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: dashJumpBoost
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419840777891072, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: dashCooldown
-      value: 0.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419840777891072, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: dashMomeDropoff
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419840777891072, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: whatIsGround.m_Bits
-      value: 18432
-      objectReference: {fileID: 0}
     - target: {fileID: 194419840777891077, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419840777891078, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: m_GravityScale
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 194419840777891079, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1635,38 +1594,6 @@ PrefabInstance:
       propertyPath: playerSpawn
       value: 
       objectReference: {fileID: 2086727637}
-    - target: {fileID: 194419841010231845, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419841010231845, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419841497959498, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: mainProjectile
-      value: 
-      objectReference: {fileID: 7560619352479132827, guid: 3011e8baf68951244a84d1f7a945cb57, type: 3}
-    - target: {fileID: 194419841497959498, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: grenadeProjectile
-      value: 
-      objectReference: {fileID: 156762422219557398, guid: 7497761c47e01a145bc3197d6c0c8938, type: 3}
-    - target: {fileID: 194419841497959499, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419841497959499, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419841698309118, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.163
-      objectReference: {fileID: 0}
-    - target: {fileID: 194419841698309119, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: m_Name
-      value: Ground Check
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
 --- !u!1001 &761804288824881000
