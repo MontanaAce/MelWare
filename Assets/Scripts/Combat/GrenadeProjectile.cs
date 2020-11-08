@@ -16,7 +16,6 @@ public class GrenadeProjectile : MonoBehaviour
     [SerializeField] private Vector2 grenadePitch;
     //The animation that plays after the grenade is destroyed
     public GameObject destroyEffect;
-    public GameObject explosion;
 
     public new Rigidbody2D rigidbody;
     //Start runs on the first frame
@@ -33,7 +32,6 @@ public class GrenadeProjectile : MonoBehaviour
     /// </summary>
     void DestroyProjectile()
     {
-        explosion.SetActive(true);
         ObjectPool.Spawn(destroyEffect, transform.position, Quaternion.identity);
         ObjectPool.Despawn(gameObject);
     }
