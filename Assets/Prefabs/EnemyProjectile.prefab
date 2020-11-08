@@ -129,7 +129,7 @@ MonoBehaviour:
   damage: 1
   whatIsSolid:
     serializedVersion: 2
-    m_Bits: 18688
+    m_Bits: 16640
   destroyEffect: {fileID: 8092615506543658870, guid: 2fa68ed7293569f4f9aafd405cac522a, type: 3}
 --- !u!96 &7849913826586898893
 TrailRenderer:

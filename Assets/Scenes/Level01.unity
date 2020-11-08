@@ -211,7 +211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4316337242704790336, guid: 919e7bfc63d4f884c87a0d05c1379d9f, type: 3}
       propertyPath: m_Layer
-      value: 11
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4316337242704790336, guid: 919e7bfc63d4f884c87a0d05c1379d9f, type: 3}
       propertyPath: m_TagString
@@ -401,7 +401,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685238498}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -423,9 +423,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 924372692}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Platforms
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -593,7 +593,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1285390959, guid: 919e7bfc63d4f884c87a0d05c1379d9f, type: 3}
       propertyPath: m_BodyType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4316337242704790336, guid: 919e7bfc63d4f884c87a0d05c1379d9f, type: 3}
       propertyPath: m_Name
@@ -1518,7 +1518,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124720089}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
