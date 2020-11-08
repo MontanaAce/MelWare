@@ -14,10 +14,9 @@ public class GrenadeProjectile : MonoBehaviour
     //The initial force that will be exerted on the grenade, in Newtons.
     [SerializeField] private Vector2 launchForceVector;
     [SerializeField] private Vector2 grenadePitch;
-    //Max damage taken, if at the point of contact.
-    public int damage;
     //The animation that plays after the grenade is destroyed
     public GameObject destroyEffect;
+    public GameObject explosion;
 
     public new Rigidbody2D rigidbody;
     //Start runs on the first frame
@@ -35,6 +34,7 @@ public class GrenadeProjectile : MonoBehaviour
     void DestroyProjectile()
     {
         ObjectPool.Spawn(destroyEffect, transform.position, Quaternion.identity);
+        explosion.SetActive(true);
         ObjectPool.Despawn(gameObject);
     }
     /// <summary>
