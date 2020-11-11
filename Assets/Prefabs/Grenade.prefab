@@ -101,6 +101,7 @@ MonoBehaviour:
   TagFilterArray:
   - Environment
   - Enemy
+  - Cracked Wall
   launchForceMag: 14
   launchForceVector: {x: 0, y: 0}
   grenadePitch: {x: 0, y: 0}

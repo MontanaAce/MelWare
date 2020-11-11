@@ -4958,6 +4958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TagFilterArray:
   - Enemy
+  - Cracked Wall
   objectsHit: []
   maxDamage: 3
   enemyRelative: {x: 0, y: 0}
@@ -4970,7 +4971,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8092615506543658870}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
