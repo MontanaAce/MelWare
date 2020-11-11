@@ -36,7 +36,7 @@ public class ExplosionCheck : MonoBehaviour
                 enemyRelative = transform.position
                     - collision.transform.position;
                 float enemyDistance = Mathf.Abs(enemyRelative.magnitude);
-                float netDamage = maxDamage - enemyDistance;
+                float netDamage = maxDamage;
 
                 Debug.Log(enemyRelative.ToString());
                 Debug.Log("\nDistance:" + enemyDistance +
