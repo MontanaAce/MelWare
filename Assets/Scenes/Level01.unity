@@ -1545,7 +1545,7 @@ GameObject:
   - component: {fileID: 45043635967837098}
   - component: {fileID: 45043635967837097}
   m_Layer: 14
-  m_Name: Platform (4)
+  m_Name: Cracked wall
   m_TagString: Cracked Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1619,8 +1619,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45043635967837096}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 17.14, y: -1.9, z: -2.6490593}
-  m_LocalScale: {x: 5, y: 1, z: 1}
+  m_LocalPosition: {x: 17.209, y: -0.373, z: -2.6490593}
+  m_LocalScale: {x: 8.053139, y: 1.1387793, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
