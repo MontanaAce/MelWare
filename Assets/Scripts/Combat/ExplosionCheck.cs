@@ -28,19 +28,18 @@ public class ExplosionCheck : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         Debug.Log("Entered Trigger");
-        foreach (string tag in TagFilterArray)
+        if(!objectsHit.Contains(collision.gameObject))
         {
-            if (collision.gameObject.CompareTag(tag) && 
-                !objectsHit.Contains(collision.gameObject))
+            if (collision.gameObject.CompareTag(TagFilterArray[0]))
             {
                 Debug.Log("Hit enemy!");
-                enemyRelative = transform.position 
+                enemyRelative = transform.position
                     - collision.transform.position;
                 float enemyDistance = Mathf.Abs(enemyRelative.magnitude);
-                float netDamage = maxDamage - enemyDistance;
+                float netDamage = maxDamage;
 
                 Debug.Log(enemyRelative.ToString());
-                Debug.Log("\nDistance:" + enemyDistance + 
+                Debug.Log("\nDistance:" + enemyDistance +
                     "\nDamage:" + Mathf.RoundToInt(netDamage));
                 if (netDamage > 0)
                 {
@@ -49,6 +48,12 @@ public class ExplosionCheck : MonoBehaviour
                     collision.attachedRigidbody.
                         AddForce(enemyRelative * explosionForce);
                 }
+                objectsHit.Add(collision.gameObject);
+            }
+            else if (collision.gameObject.CompareTag(TagFilterArray[1]))
+            {
+                Debug.Log("Hit wall!");
+                collision.gameObject.GetComponent<WallHealth>().health -= maxDamage;
                 objectsHit.Add(collision.gameObject);
             }
         }

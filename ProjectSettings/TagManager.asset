@@ -18,6 +18,7 @@ TagManager:
   - Lower camera limit
   - Environment
   - Enemy
+  - Cracked Wall
   layers:
   - Default
   - TransparentFX
