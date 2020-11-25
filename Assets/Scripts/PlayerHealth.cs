@@ -18,6 +18,10 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
+        if(health != int.Parse(healthText.text.ToString().Split('/')[0]))
+        {
+            UpdateText();
+        }
         if (health <= 0)
         {
             ObjectPool.Spawn(deathEffect, transform.position, Quaternion.identity);
