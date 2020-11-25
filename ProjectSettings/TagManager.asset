@@ -19,6 +19,8 @@ TagManager:
   - Environment
   - Enemy
   - Cracked Wall
+  - SaveRoom
+  - PauseMenu
   layers:
   - Default
   - TransparentFX

@@ -4960,7 +4960,7 @@ MonoBehaviour:
   - Enemy
   - Cracked Wall
   objectsHit: []
-  maxDamage: 3
+  maxDamage: 5
   enemyRelative: {x: 0, y: 0}
   explosionForce: 2
   timer: 0
