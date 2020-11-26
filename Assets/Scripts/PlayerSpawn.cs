@@ -6,15 +6,15 @@ public class PlayerSpawn : MonoBehaviour
 {
     public Vector3 playerSpawnPoint;
     public GameObject player;
-    public PlayerHealth playerHealth;
+    public PlayerAllinOne playerAllInOne;
 
 
 
     // Start is called before the first frame update
     void OnEnable()
     {
-        player = FindObjectOfType<PlayerController>().gameObject;
-        playerHealth = FindObjectOfType<PlayerHealth>();
+        player = FindObjectOfType<PlayerAllinOne>().gameObject;
+        playerAllInOne = FindObjectOfType<PlayerAllinOne>();
         playerSpawnPoint = this.transform.position;
     }
 
@@ -25,7 +25,7 @@ public class PlayerSpawn : MonoBehaviour
     }
     public void RespawnPlayer()
     {
-        playerHealth.health = playerHealth.maxHealth;
+        playerAllInOne.health = playerAllInOne.maxHealth;
         player.transform.position = playerSpawnPoint;
     }
 

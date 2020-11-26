@@ -46,7 +46,7 @@ public class EnemyProjectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other){
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerHealth>().TakeDamage(damage);
+            other.GetComponent<PlayerAllinOne>().TakeDamage(damage);
             DestroyProjectile();
         }else if (other.CompareTag("Environment") || other.CompareTag("Cracked Wall"))
         {

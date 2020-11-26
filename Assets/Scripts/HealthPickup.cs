@@ -4,26 +4,26 @@ using UnityEngine;
 
 public class HealthPickup : MonoBehaviour
 {
-    PlayerHealth playerHealth;
+    PlayerAllinOne playerAllInOne;
     public int healthAdd = 5;
 
 
     void OnEnable()
     {
-        playerHealth = FindObjectOfType<PlayerHealth>();
+        playerAllInOne = FindObjectOfType<PlayerAllinOne>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(playerHealth.health < playerHealth.maxHealth)
+        if(playerAllInOne.health < playerAllInOne.maxHealth)
         {
             Destroy(gameObject);
-            playerHealth.health += healthAdd;
-            if(playerHealth.health > playerHealth.maxHealth)
+            playerAllInOne.health += healthAdd;
+            if(playerAllInOne.health > playerAllInOne.maxHealth)
             {
-                playerHealth.health = playerHealth.maxHealth;
+                playerAllInOne.health = playerAllInOne.maxHealth;
             }
-            playerHealth.UpdateText();
+            playerAllInOne.UpdateText();
         }
     }
 }
