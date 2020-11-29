@@ -83754,14 +83754,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8792139615881588566, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: healthText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792139615881588566, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
-      propertyPath: playerSpawn
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
 --- !u!1 &8792139615881588565 stripped
