@@ -21,6 +21,7 @@ TagManager:
   - Cracked Wall
   - SaveRoom
   - PauseMenu
+  - PlayerSpawn
   layers:
   - Default
   - TransparentFX
