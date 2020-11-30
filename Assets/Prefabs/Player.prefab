@@ -12,10 +12,8 @@ GameObject:
   - component: {fileID: 194419840777891076}
   - component: {fileID: 194419840777891073}
   - component: {fileID: 194419840777891078}
-  - component: {fileID: 194419840777891072}
   - component: {fileID: 194419840777891075}
-  - component: {fileID: 194419840777891074}
-  - component: {fileID: 194419840777891085}
+  - component: {fileID: 8792139615881588566}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -138,35 +136,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &194419840777891072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194419840777891077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08b831a553d856e438c3ba00a6df8eff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
-  jumpForce: 20
-  defaultSpeed: 8
-  defaultJumpForce: 20
-  dashSpeed: 24
-  dashJumpBoost: 20
-  dashCooldown: 0.17
-  dashMomeDropoff: 1.5
-  isGrounded: 0
-  canDash: 0
-  groundCheck: {fileID: 194419841698309118}
-  checkRadius: 0.5
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 18432
-  jumpTime: 0.15
-  dashDropoffCalc: 0
 --- !u!95 &194419840777891075
 Animator:
   serializedVersion: 3
@@ -186,7 +155,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &194419840777891074
+--- !u!114 &8792139615881588566
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,23 +164,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 194419840777891077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 579b87d86f7a2ab42a4191f9c2dc6a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 21be579727ae0f74180f5684329ea218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &194419840777891085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194419840777891077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44b84a3707c21d44fa46ed9aa2258f77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 10
-  maxHealth: 10
+  health: 50
+  maxHealth: 50
+  speed: 8
+  defaultSpeed: 8
+  dashSpeed: 24
+  canDash: 0
+  jumpForce: 20
+  defaultJumpForce: 20
+  dashJumpBoost: 24
+  jumpTime: 0.15
+  isGrounded: 0
+  groundCheck: {fileID: 194419841698309118}
+  checkRadius: 0.5
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 18432
+  dashCooldown: 0.17
+  dashMomeDropoff: 1.5
+  dashDropoffCalc: 0
   deathEffect: {fileID: 8092615506543658870, guid: 30e6d9bc4711ca14fa5c75431187a84d, type: 3}
   healthText: {fileID: 0}
   playerSpawn: {fileID: 0}
@@ -5234,7 +5208,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194419841698309119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.163, z: 0}
+  m_LocalPosition: {x: 0, y: -0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 194419840777891079}

@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 761804288974813030}
   - component: {fileID: 761804288974813049}
   - component: {fileID: 761804288974813048}
-  - component: {fileID: 761804288974813050}
   - component: {fileID: 761804288974813051}
-  - component: {fileID: 1878365850}
+  - component: {fileID: 336890860}
   m_Layer: 11
   m_Name: Enemy01
   m_TagString: Enemy
@@ -134,21 +133,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &761804288974813050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 761804288974813029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d0cfc93fdb690641b8ed65b46707a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 4
-  deathEffect: {fileID: 8092615506543658870, guid: 0b20c380782e0434da362bff7ec7b9be, type: 3}
-  healthPickup: {fileID: 7342516097877629160, guid: f61df2f41d384124f9d6ab59408dad89, type: 3}
 --- !u!95 &761804288974813051
 Animator:
   serializedVersion: 3
@@ -168,7 +152,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1878365850
+--- !u!114 &336890860
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,9 +161,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 761804288974813029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ee443d0c5a93c141b423585458252f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5dba36d493915a04e88e267eda661ab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 4
+  deathEffect: {fileID: 8092615506543658870, guid: 0b20c380782e0434da362bff7ec7b9be, type: 3}
+  healthPickup: {fileID: 7342516097877629160, guid: f61df2f41d384124f9d6ab59408dad89, type: 3}
   speed: 3
   stoppingDistance: 8
   retreatDistance: 4

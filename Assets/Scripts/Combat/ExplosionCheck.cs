@@ -43,7 +43,7 @@ public class ExplosionCheck : MonoBehaviour
                     "\nDamage:" + Mathf.RoundToInt(netDamage));
                 if (netDamage > 0)
                 {
-                    collision.GetComponent<Enemy>().
+                    collision.GetComponent<EnemyAllinOne>().
                         TakeDamage(Mathf.RoundToInt(netDamage));
                     collision.attachedRigidbody.
                         AddForce(enemyRelative * explosionForce);
