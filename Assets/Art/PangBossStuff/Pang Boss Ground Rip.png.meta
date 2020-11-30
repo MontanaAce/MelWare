@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: e0e0665b8e29a994d9d9504118f7750a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4422072059879549816
+    second: Pang Boss Ground Rip_0
+  - first:
+      213: 19306655658484602
+    second: Pang Boss Ground Rip_1
+  - first:
+      213: -6118327497782461142
+    second: Pang Boss Ground Rip_2
+  - first:
+      213: -5764612501887542651
+    second: Pang Boss Ground Rip_3
+  - first:
+      213: -7315683300558400368
+    second: Pang Boss Ground Rip_4
+  - first:
+      213: 7669454966549136590
+    second: Pang Boss Ground Rip_5
+  - first:
+      213: -2731697100816283624
+    second: Pang Boss Ground Rip_6
+  - first:
+      213: -6772736601466004378
+    second: Pang Boss Ground Rip_7
+  - first:
+      213: 2006232939272858222
+    second: Pang Boss Ground Rip_8
+  - first:
+      213: -3022068788875122407
+    second: Pang Boss Ground Rip_9
+  - first:
+      213: 3225343745307732780
+    second: Pang Boss Ground Rip_10
+  - first:
+      213: 1522438941752578678
+    second: Pang Boss Ground Rip_11
+  - first:
+      213: 1764984204828653929
+    second: Pang Boss Ground Rip_12
+  - first:
+      213: -2342661968863530260
+    second: Pang Boss Ground Rip_13
+  - first:
+      213: 158445976968198151
+    second: Pang Boss Ground Rip_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 330
+        width: 75
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88413b304e4a1a2c0800000000000000
+      internalID: -4422072059879549816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 330
+        width: 75
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7323501d47944000800000000000000
+      internalID: 19306655658484602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 330
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dfb2b9e85571ba0800000000000000
+      internalID: -6118327497782461142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 330
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a9735c87bffffa0800000000000000
+      internalID: -5764612501887542651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 232
+        width: 79
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09495fc5cc8797a90800000000000000
+      internalID: -7315683300558400368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 231
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4440658a06f6a60800000000000000
+      internalID: 7669454966549136590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 233
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81881efb5ff071ad0800000000000000
+      internalID: -2731697100816283624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_7
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 233
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c1558c1f76202a0800000000000000
+      internalID: -6772736601466004378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 132
+        width: 78
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6aeb029a3297db10800000000000000
+      internalID: 2006232939272858222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 130
+        width: 78
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919ad48b2747f06d0800000000000000
+      internalID: -3022068788875122407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 130
+        width: 92
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b68993c09b2cc20800000000000000
+      internalID: 3225343745307732780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_11
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 114
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672526bb62ac02510800000000000000
+      internalID: 1522438941752578678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 30
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969bcf278cb7e7810800000000000000
+      internalID: 1764984204828653929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 30
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2721de9513d7fd0800000000000000
+      internalID: -2342661968863530260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 30
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708774dc6c9e23200800000000000000
+      internalID: 158445976968198151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
