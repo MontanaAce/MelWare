@@ -13,7 +13,7 @@ public class EnableGrenade : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        weapon.hasgrenade = true;
+        weapon.hasGrenade = true;
         Destroy(gameObject);
     }
 }
