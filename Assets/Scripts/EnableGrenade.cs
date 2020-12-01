@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class EnableGrenade : MonoBehaviour
 {
-    public Weapon weapon;
+    private Weapon weapon;
     // Start is called before the first frame update
     void Start()
     {
         weapon = GameObject.FindGameObjectWithTag("Weapon").GetComponent<Weapon>();
+        if (weapon.hasGrenade)
+        {
+            Destroy(this);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
