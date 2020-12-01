@@ -22,6 +22,8 @@ TagManager:
   - SaveRoom
   - PauseMenu
   - PlayerSpawn
+  - Doorways
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -38,7 +40,7 @@ TagManager:
   - Platforms
   - Walls
   - Environment
-  - 
+  - Doorways
   - 
   - 
   - 

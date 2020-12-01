@@ -17,6 +17,7 @@ public class Weapon : MonoBehaviour
 
     private float timeBtwShots;
     public float startTimeBtwShots;
+    public bool hasgrenade = false;
 
     private void Update()
     {
@@ -26,9 +27,25 @@ public class Weapon : MonoBehaviour
 
         if (timeBtwShots <= 0 && Input.GetMouseButtonDown(0))
         {
+<<<<<<< HEAD
+            if (Input.GetMouseButtonDown(0))
+            {
+                ObjectPool.Spawn(muzzFlash, shotPoint.position, transform.rotation);
+                Instantiate(mainProjectile, shotPoint.position, transform.rotation);
+                timeBtwShots = startTimeBtwShots;
+            }
+            if (hasgrenade && Input.GetMouseButtonDown(1))
+            {
+                ObjectPool.Spawn(muzzFlash, shotPoint.position, transform.rotation);
+                Instantiate(grenadeProjectile, shotPoint.position, transform.rotation);
+                timeBtwShots = startTimeBtwShots;
+            }
+            
+=======
             ObjectPool.Spawn(muzzFlash, shotPoint.position, transform.rotation);
             Instantiate(mainProjectile, shotPoint.position, transform.rotation);
             timeBtwShots = startTimeBtwShots;
+>>>>>>> 0eabe2b0f0aa8e51d215910bda0b75006f48f99a
         }
         else
         {
