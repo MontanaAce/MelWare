@@ -88259,6 +88259,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 8792139615881588565}
+    - target: {fileID: 4998451112495399789, guid: e93d0f16d79827740824419fca84bb52, type: 3}
+      propertyPath: playerAllInOne
+      value: 
+      objectReference: {fileID: 8792139615881588564}
     - target: {fileID: 4998451112495399790, guid: e93d0f16d79827740824419fca84bb52, type: 3}
       propertyPath: m_Name
       value: PlayerSpawn
@@ -92301,6 +92305,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
+--- !u!114 &8792139615881588564 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8792139615881588566, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
+  m_PrefabInstance: {fileID: 8792139615881588563}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8792139615881588565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21be579727ae0f74180f5684329ea218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8792139615881588565 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 194419840777891077, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
