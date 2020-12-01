@@ -1,43 +1,37 @@
 fileFormatVersion: 2
-guid: 647332f6d8e07224fb90816b4befb977
+guid: c5e0ffa1470018e4883299654de7a2e3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4233171770290792618
-    second: Pang Idle Raw_0
+      213: -4013619873378598042
+    second: Ground Explosion_0
   - first:
-      213: 7044704664012524548
-    second: Pang Idle Raw_1
+      213: -8314662985679696215
+    second: Ground Explosion_0
   - first:
-      213: 7803952861890587417
-    second: Pang Idle Raw_2
+      213: -7853904094792384528
+    second: Ground Explosion_1
   - first:
-      213: 6891327976680528737
-    second: Pang Idle Raw_3
+      213: -7656352321960149764
+    second: Ground Explosion_2
   - first:
-      213: -5694193233506155247
-    second: Pang Idle Raw_4
+      213: 3643677981421823155
+    second: Ground Explosion_3
   - first:
-      213: -9031226269847314126
-    second: Pang Idle Raw_5
+      213: -1965526759651927362
+    second: Ground Explosion_4
   - first:
-      213: -606564217977578431
-    second: Pang Idle Raw_0
+      213: 1294891885533160194
+    second: Ground Explosion_5
   - first:
-      213: 7248164667391326434
-    second: Pang Idle Raw_1
+      213: 4522181438707763284
+    second: Ground Explosion_6
   - first:
-      213: 5448374915674343771
-    second: Pang Idle Raw_2
+      213: -7916401608593868895
+    second: Ground Explosion_7
   - first:
-      213: 5962654349052098208
-    second: Pang Idle Raw_3
-  - first:
-      213: 5430758026358031385
-    second: Pang Idle Raw_4
-  - first:
-      213: -4217087375595236095
-    second: Pang Idle Raw_5
+      213: -8786891668044884445
+    second: Ground Explosion_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -137,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pang Idle Raw_0
+      name: Ground Explosion_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 132
-        width: 75
-        height: 63
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14cdbf5be0d0597f0800000000000000
-      internalID: -606564217977578431
+      spriteID: 9ae097741126c9c80800000000000000
+      internalID: -8314662985679696215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Idle Raw_1
+      name: Ground Explosion_1
       rect:
         serializedVersion: 2
-        x: 75
-        y: 132
-        width: 75
-        height: 63
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e8b561dc57a69460800000000000000
-      internalID: 7248164667391326434
+      spriteID: 0fff9e966d3510390800000000000000
+      internalID: -7853904094792384528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Idle Raw_2
+      name: Ground Explosion_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 66
-        width: 75
-        height: 63
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,41 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b590beb7e148c9b40800000000000000
-      internalID: 5448374915674343771
+      spriteID: cfcf356d02c2fb590800000000000000
+      internalID: -7656352321960149764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Idle Raw_3
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 65
-        width: 75
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a630b9f98a9fb250800000000000000
-      internalID: 5962654349052098208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pang Idle Raw_4
+      name: Ground Explosion_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 75
-        height: 63
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9140c2ec6aded5b40800000000000000
-      internalID: 5430758026358031385
+      spriteID: 3b46f8ea1d1f09230800000000000000
+      internalID: 3643677981421823155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Idle Raw_5
+      name: Ground Explosion_4
       rect:
         serializedVersion: 2
-        x: 75
-        y: 2
-        width: 75
-        height: 63
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,8 +229,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1059cdeff55e975c0800000000000000
-      internalID: -4217087375595236095
+      spriteID: eba1c6e63db09b4e0800000000000000
+      internalID: -1965526759651927362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Explosion_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2036dbb2f4168f110800000000000000
+      internalID: 1294891885533160194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Explosion_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4588a081f0402ce30800000000000000
+      internalID: 4522181438707763284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Explosion_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a77e6c0eaa432290800000000000000
+      internalID: -7916401608593868895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground Explosion_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32658563590be0680800000000000000
+      internalID: -8786891668044884445
       vertices: []
       indices: 
       edges: []

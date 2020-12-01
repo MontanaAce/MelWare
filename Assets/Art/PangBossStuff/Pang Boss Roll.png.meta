@@ -1,43 +1,19 @@
 fileFormatVersion: 2
-guid: 647332f6d8e07224fb90816b4befb977
+guid: 132476e9823e8a641ba38143bdcd1884
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4233171770290792618
-    second: Pang Idle Raw_0
+      213: 1126378010350529556
+    second: Pang Boss Roll_0
   - first:
-      213: 7044704664012524548
-    second: Pang Idle Raw_1
+      213: 4763346204182362291
+    second: Pang Boss Roll_1
   - first:
-      213: 7803952861890587417
-    second: Pang Idle Raw_2
+      213: -5705908221506598160
+    second: Pang Boss Roll_2
   - first:
-      213: 6891327976680528737
-    second: Pang Idle Raw_3
-  - first:
-      213: -5694193233506155247
-    second: Pang Idle Raw_4
-  - first:
-      213: -9031226269847314126
-    second: Pang Idle Raw_5
-  - first:
-      213: -606564217977578431
-    second: Pang Idle Raw_0
-  - first:
-      213: 7248164667391326434
-    second: Pang Idle Raw_1
-  - first:
-      213: 5448374915674343771
-    second: Pang Idle Raw_2
-  - first:
-      213: 5962654349052098208
-    second: Pang Idle Raw_3
-  - first:
-      213: 5430758026358031385
-    second: Pang Idle Raw_4
-  - first:
-      213: -4217087375595236095
-    second: Pang Idle Raw_5
+      213: -8159491038886723456
+    second: Pang Boss Roll_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -137,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pang Idle Raw_0
+      name: Pang Boss Roll_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 132
-        width: 75
-        height: 63
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14cdbf5be0d0597f0800000000000000
-      internalID: -606564217977578431
+      spriteID: 41c21c525d2b1af00800000000000000
+      internalID: 1126378010350529556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Idle Raw_1
+      name: Pang Boss Roll_1
       rect:
         serializedVersion: 2
-        x: 75
-        y: 132
-        width: 75
-        height: 63
+        x: 100
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,62 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e8b561dc57a69460800000000000000
-      internalID: 7248164667391326434
+      spriteID: 3b8be7aa22eca1240800000000000000
+      internalID: 4763346204182362291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Idle Raw_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 66
-        width: 75
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b590beb7e148c9b40800000000000000
-      internalID: 5448374915674343771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pang Idle Raw_3
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 65
-        width: 75
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a630b9f98a9fb250800000000000000
-      internalID: 5962654349052098208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pang Idle Raw_4
+      name: Pang Boss Roll_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 75
-        height: 63
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9140c2ec6aded5b40800000000000000
-      internalID: 5430758026358031385
+      spriteID: 0fa4e1824ba80d0b0800000000000000
+      internalID: -5705908221506598160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Idle Raw_5
+      name: Pang Boss Roll_3
       rect:
         serializedVersion: 2
-        x: 75
-        y: 2
-        width: 75
-        height: 63
+        x: 100
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,8 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1059cdeff55e975c0800000000000000
-      internalID: -4217087375595236095
+      spriteID: 0808c27812aa3ce80800000000000000
+      internalID: -8159491038886723456
       vertices: []
       indices: 
       edges: []
