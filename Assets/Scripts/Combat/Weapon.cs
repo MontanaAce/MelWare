@@ -17,7 +17,6 @@ public class Weapon : MonoBehaviour
 
     private float timeBtwShots;
     public float startTimeBtwShots;
-    public bool hasgrenade = false;
 
     private void Update()
     {
