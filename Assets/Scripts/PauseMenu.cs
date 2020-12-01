@@ -73,6 +73,6 @@ public class PauseMenu : MonoBehaviour
            (gameData.savePositionX,
             gameData.savePositionY,
             transform.position.z);
-        player.GetComponent<PlayerHealth>().health = gameData.health;
+        player.GetComponent<PlayerAllinOne>().health = gameData.health;
     }
 }
