@@ -92288,7 +92288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 194419841497959498, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
       propertyPath: hasGrenade
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8792139615881588566, guid: 3fe30a78943362e4e9e5e1306d706035, type: 3}
       propertyPath: whatIsGround.m_Bits
