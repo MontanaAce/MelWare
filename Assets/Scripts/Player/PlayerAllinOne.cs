@@ -5,20 +5,15 @@ using UnityEngine.UI;
 
 public class PlayerAllinOne : MonoBehaviour
 {
-    [TagSelector]
-    public string playerSpawnTag;
-
     //Health Variables
     public int health;
     public int maxHealth;
-
     //MovementVariables
     public float speed;
     private float moveInput;
     public float defaultSpeed;
     public float dashSpeed;
     public bool canDash;
-
     //Jump Variables
     public float jumpForce;
     public float defaultJumpForce;
@@ -30,17 +25,15 @@ public class PlayerAllinOne : MonoBehaviour
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatIsGround;
-
     //Cooldowns
     public float dashCooldown;
     public float dashMomeDropoff;
     public float dashDropoffCalc;
-
     //Objects
     private Rigidbody2D rb;
     public GameObject deathEffect;
     public Text healthText;
-    private PlayerSpawn playerSpawn;
+    public PlayerSpawn playerSpawn;
     private Animator anim;
 
 
@@ -49,7 +42,7 @@ public class PlayerAllinOne : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         healthText = GameObject.Find("HealthText").GetComponent<Text>();
-        playerSpawn = GameObject.FindGameObjectWithTag(playerSpawnTag).GetComponent<PlayerSpawn>();
+        playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").GetComponent<PlayerSpawn>();
         healthText.text = health + "/" + maxHealth;
         anim = GetComponent<Animator>();
     }
