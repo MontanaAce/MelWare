@@ -15,7 +15,7 @@ public class PangBoss : MonoBehaviour
     public Text healthText;
 
     public Animator anim;
-    private void Start()
+    private void OnEnable()
     {
         healthText = GameObject.Find("PangText").GetComponent<Text>();
         healthText.text = health + "/" + maxHealth;
