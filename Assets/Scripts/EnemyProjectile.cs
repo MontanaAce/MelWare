@@ -48,7 +48,7 @@ public class EnemyProjectile : MonoBehaviour
         {
             other.GetComponent<PlayerAllinOne>().TakeDamage(damage);
             DestroyProjectile();
-        }else if (other.CompareTag("Environment") || other.CompareTag("Cracked Wall") || other.CompareTag("Doorways"))
+        }else if (other.CompareTag("Environment") || other.CompareTag("Cracked Wall"))
         {
             DestroyProjectile();
         }

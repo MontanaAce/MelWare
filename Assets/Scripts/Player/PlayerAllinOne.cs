@@ -50,7 +50,6 @@ public class PlayerAllinOne : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         healthText = GameObject.Find("HealthText").GetComponent<Text>();
         playerSpawn = GameObject.FindGameObjectWithTag(playerSpawnTag).GetComponent<PlayerSpawn>();
-        transform.position = playerSpawn.transform.position;
         healthText.text = health + "/" + maxHealth;
         anim = GetComponent<Animator>();
     }
