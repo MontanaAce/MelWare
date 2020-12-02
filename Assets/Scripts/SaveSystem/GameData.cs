@@ -15,12 +15,12 @@ namespace Assets.Scripts.SaveSystem
         public int health;
         public float savePositionX;
         public float savePositionY;
-        //Dictionary<string, bool> abilities;
+        public bool[] activeWalls;
         //Dictionary<string, bool> bosses;
-        public GameData(bool inGrenade, GameObject newPlayer)
+        public GameData(GameObject newPlayer, GameObject[] weakWalls)
         {
-            hasGrenade = inGrenade;
-            health = newPlayer.GetComponent<PlayerHealth>().health;
+            hasGrenade = newPlayer.GetComponentInChildren<Weapon>().hasGrenade;
+            health = newPlayer.GetComponent<PlayerAllinOne>().health;
             savePositionX = newPlayer.transform.position.x;
             savePositionY = newPlayer.transform.position.y;
         }

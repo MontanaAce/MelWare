@@ -6,7 +6,10 @@ using Assets.Scripts.SaveSystem;
 
 public class PauseMenu : MonoBehaviour
 {
+    //Data to save
     GameObject player;
+    public GameObject[] weakWalls;
+
     public GameObject mainPauseMenu;
     public GameObject saveMenu;
     public GameObject loadMenu;
@@ -57,7 +60,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void SaveGame(string fileName)
     {
-        GameData gameData = new GameData(false, player);
+        GameData gameData = new GameData(player, weakWalls);
         SaveSystem.Save(gameData, fileName);
     }
     public void GoToLoad()
