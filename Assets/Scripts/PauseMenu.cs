@@ -6,21 +6,16 @@ using Assets.Scripts.SaveSystem;
 
 public class PauseMenu : MonoBehaviour
 {
-    //Data to save
     GameObject player;
-    public GameObject[] weakWalls;
-
     public GameObject mainPauseMenu;
     public GameObject saveMenu;
     public GameObject loadMenu;
     public bool playerInSaveRoom = false;
     public Button[] saveButtons;
-    private float normalTimeScale;
     // Start is called before the first frame update
     void Start()
     {
-        normalTimeScale = Time.timeScale;
-        player = FindObjectOfType<PlayerAllinOne>().gameObject;
+        player = FindObjectOfType<PlayerController>().gameObject;
         mainPauseMenu.SetActive(false);
         saveMenu.SetActive(false);
         loadMenu.SetActive(false);
@@ -31,7 +26,7 @@ public class PauseMenu : MonoBehaviour
     {
         for (int i = 0; i < saveButtons.Length; i++)
         {
-            saveButtons[i].interactable = playerInSaveRoom;
+            saveButtons[i].enabled = playerInSaveRoom;
         }
         if(Input.GetKeyUp(KeyCode.Escape))
         {
@@ -41,11 +36,9 @@ public class PauseMenu : MonoBehaviour
                 mainPauseMenu.SetActive(false);
                 saveMenu.SetActive(false);
                 loadMenu.SetActive(false);
-                Time.timeScale = normalTimeScale;
             }
             else
             {
-                Time.timeScale = 0;
                 mainPauseMenu.SetActive(true);
             }
         }
@@ -64,7 +57,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void SaveGame(string fileName)
     {
-        GameData gameData = new GameData(player, weakWalls);
+        GameData gameData = new GameData(false, player);
         SaveSystem.Save(gameData, fileName);
     }
     public void GoToLoad()
@@ -76,16 +69,10 @@ public class PauseMenu : MonoBehaviour
     public void LoadGame(string fileName)
     {
         GameData gameData = SaveSystem.Load(fileName);
-        Debug.Log($"New position: {gameData.savePositionX}, {gameData.savePositionY}");
         player.transform.position.Set
            (gameData.savePositionX,
             gameData.savePositionY,
             transform.position.z);
-        player.GetComponent<PlayerAllinOne>().health = gameData.health;
-
-        for (int i = 0; i < gameData.activeWalls.Length; i++)
-        {
-            weakWalls[i].SetActive(gameData.activeWalls[i]);
-        }
+        player.GetComponent<PlayerHealth>().health = gameData.health;
     }
 }
