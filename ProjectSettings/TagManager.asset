@@ -24,6 +24,7 @@ TagManager:
   - PlayerSpawn
   - Doorways
   - Weapon
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -41,7 +42,7 @@ TagManager:
   - Walls
   - Environment
   - Doorways
-  - 
+  - Boss
   - 
   - 
   - 
