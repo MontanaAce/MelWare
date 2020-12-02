@@ -23,7 +23,7 @@ namespace Assets.Scripts.SaveSystem
             health = newPlayer.GetComponent<PlayerAllinOne>().health;
             savePositionX = newPlayer.transform.position.x;
             savePositionY = newPlayer.transform.position.y;
-            activeWalls = new bool[weakWalls.Length - 1];
+            activeWalls = new bool[weakWalls.Length];
             for(int i = 0; i < weakWalls.Length; i++)
             {
                 activeWalls[i] = weakWalls[i].activeSelf;
