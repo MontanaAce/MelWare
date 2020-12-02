@@ -5,6 +5,8 @@ using UnityEngine;
 public class SaveStation : MonoBehaviour
 {
     PauseMenu pauseMenu;
+    [TagSelector]
+    public string playerTag;
     
     private void Start()
     {
@@ -12,10 +14,18 @@ public class SaveStation : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        pauseMenu.playerInSaveRoom = true;
+        if (collision.gameObject.CompareTag(playerTag))
+        {
+            pauseMenu.playerInSaveRoom = true;
+            Debug.Log("Player entered save room");
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        pauseMenu.playerInSaveRoom = false;
+        if (collision.gameObject.CompareTag(playerTag))
+        {
+            pauseMenu.playerInSaveRoom = false;
+            Debug.Log("Player Exited save room");
+        }
     }
 }
