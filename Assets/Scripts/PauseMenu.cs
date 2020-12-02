@@ -15,9 +15,11 @@ public class PauseMenu : MonoBehaviour
     public GameObject loadMenu;
     public bool playerInSaveRoom = false;
     public Button[] saveButtons;
+    private float normalTimeScale;
     // Start is called before the first frame update
     void Start()
     {
+        normalTimeScale = Time.timeScale;
         player = FindObjectOfType<PlayerAllinOne>().gameObject;
         mainPauseMenu.SetActive(false);
         saveMenu.SetActive(false);
@@ -39,9 +41,11 @@ public class PauseMenu : MonoBehaviour
                 mainPauseMenu.SetActive(false);
                 saveMenu.SetActive(false);
                 loadMenu.SetActive(false);
+                Time.timeScale = normalTimeScale;
             }
             else
             {
+                Time.timeScale = 0;
                 mainPauseMenu.SetActive(true);
             }
         }
