@@ -10,9 +10,11 @@ public class PangBoss : MonoBehaviour
     public int damage;
     private int i;
     public float animDur = 1;
-    public GameObject deathEffect;
+    public bool isAttacking;
     //private float timeBtwDamage = 1.5f;
     public Text healthText;
+    public Transform startRollPos;
+    public Transform endRollPos;
 
     public Animator anim;
     private void Start()
@@ -20,6 +22,8 @@ public class PangBoss : MonoBehaviour
         healthText = GameObject.Find("PangText").GetComponent<Text>();
         healthText.text = health + "/" + maxHealth;
         anim = GetComponent<Animator>();
+        anim.SetTrigger("Introduction");
+        StartCoroutine(Introduction());
     }
 
     private void Update()
@@ -30,41 +34,51 @@ public class PangBoss : MonoBehaviour
         }
         if (health <= 0)
         {
-            ObjectPool.Spawn(deathEffect, transform.position, Quaternion.identity);
+            anim.SetBool("IsDead", true);
+            StartCoroutine(BossDeath());
         }
-        i = Random.Range(1, 21);
-        if(i == 1 || i == 2 || i == 3 || i == 4 || i == 5)
+        if(isAttacking == false)
         {
-            anim.SetBool("Idling", false);
-            anim.SetBool("Rolling", false);
-            anim.SetBool("Flipping", false);
-            anim.SetBool("Slashing", true);
-            StartCoroutine(WaitForAnim());
+            i = Random.Range(1, 21);
+            if (i == 1 || i == 2 || i == 3 || i == 4 || i == 5)
+            {
+                isAttacking = true;
+                anim.SetBool("Idling", false);
+                anim.SetBool("Rolling", false);
+                anim.SetBool("Flipping", false);
+                anim.SetBool("Slashing", true);
+                StartCoroutine(WaitForAnim());
+            }
+            else if (i == 6 || i == 7 || i == 8 || i == 9 || i == 10)
+            {
+                isAttacking = true;
+                anim.SetBool("Slashing", false);
+                anim.SetBool("Rolling", false);
+                anim.SetBool("Flipping", false);
+                anim.SetBool("Idling", true);
+                StartCoroutine(WaitForAnim());
+            }
+            else if (i == 11 || i == 12 || i == 13 || i == 14 || i == 15)
+            {
+                isAttacking = true;
+                anim.SetBool("Slashing", false);
+                anim.SetBool("Rolling", false);
+                anim.SetBool("Idling", false);
+                anim.SetBool("Flipping", true);
+                StartCoroutine(WaitForAnim());
+            }
+            else if (i == 16 || i == 17 || i == 18 || i == 19 || i == 20)
+            {
+                isAttacking = true;
+                anim.SetBool("Slashing", false);
+                anim.SetBool("Idling", false);
+                anim.SetBool("Flipping", false);
+                anim.SetBool("Rolling", true);
+                //StartCoroutine(WaitForAnim());
+                StartCoroutine(Rolling());
+            }
         }
-        else if(i == 6 || i == 7 || i == 8 || i == 9 || i == 10)
-        {
-            anim.SetBool("Slashing", false);
-            anim.SetBool("Rolling", false);
-            anim.SetBool("Flipping", false);
-            anim.SetBool("Idling", true);
-            StartCoroutine(WaitForAnim());
-        }
-        else if(i == 11 || i == 12 || i == 13 || i == 14 || i == 15)
-        {
-            anim.SetBool("Slashing", false);
-            anim.SetBool("Rolling", false);
-            anim.SetBool("Idling", false);
-            anim.SetBool("Flipping", true);
-            StartCoroutine(WaitForAnim());
-        }
-        else if(i == 16 || i == 17 || i == 18 || i == 19 || i == 20)
-        {
-            anim.SetBool("Slashing", false);
-            anim.SetBool("Idling", false);
-            anim.SetBool("Flipping", false);
-            anim.SetBool("Rolling", true);
-            StartCoroutine(WaitForAnim());
-        }
+        
     }
     public void UpdateText()
     {
@@ -78,5 +92,52 @@ public class PangBoss : MonoBehaviour
     public IEnumerator WaitForAnim()
     {
         yield return new WaitForSeconds(animDur);
+        isAttacking = false;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            collision.GetComponent<PlayerAllinOne>().TakeDamage(damage);
+        }
+    }
+    public IEnumerator BossDeath()
+    {
+        yield return new WaitForSeconds(3);
+        Destroy(gameObject);
+    }
+    IEnumerator Introduction()
+    {
+        yield return new WaitForSeconds(3);
+    }
+    public IEnumerator Rolling()
+    {
+        float firstDuration = 1;
+        float secondDuration = 1.5f;
+        float t = 0;
+        Vector3 currentPos = transform.position;
+        while(t < firstDuration)
+        {
+            t += Time.deltaTime;
+            transform.position = Vector3.Lerp(currentPos, startRollPos.position, t / firstDuration);
+            yield return null;
+        }
+        t = 0;
+        currentPos = transform.position;
+        while (t < secondDuration)
+        {
+            t += Time.deltaTime;
+            transform.position = Vector3.Lerp(currentPos, endRollPos.position, t / secondDuration);
+            yield return null;
+        }
+        t = 0;
+        currentPos = transform.position;
+        while (t < secondDuration)
+        {
+            t += Time.deltaTime;
+            transform.position = Vector3.Lerp(currentPos, startRollPos.position, t / secondDuration);
+            yield return null;
+        }
+        isAttacking = false;
     }
 }

@@ -9,7 +9,7 @@ public class WallHealth : MonoBehaviour
     {
         if( health <= 0)
         {
-            Destroy(this.gameObject);
+            gameObject.SetActive(false);
         }
     }
     public void TakeDamage(float damage)
