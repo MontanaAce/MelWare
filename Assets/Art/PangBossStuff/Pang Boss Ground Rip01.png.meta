@@ -1,73 +1,52 @@
 fileFormatVersion: 2
-guid: 0baf4894d27b5ce41b5859766cf2f255
+guid: f92f83beca8818f4dafe6ddc06a87dc5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8096869132118109094
-    second: Pang Slash Atk (1)_0
+      213: 7340410989375033308
+    second: Pang Boss Ground Rip01_0
   - first:
-      213: 5461676775850656399
-    second: Pang Slash Atk (1)_1
+      213: 5201456138850495612
+    second: Pang Boss Ground Rip01_1
   - first:
-      213: -2908064316795284047
-    second: Pang Slash Atk (1)_2
+      213: -5226275245636038625
+    second: Pang Boss Ground Rip01_2
   - first:
-      213: -3379652883974447618
-    second: Pang Slash Atk (1)_3
+      213: -8851951953255477881
+    second: Pang Boss Ground Rip01_3
   - first:
-      213: -6657098724528363734
-    second: Pang Slash Atk (1)_4
+      213: 5053298468154527154
+    second: Pang Boss Ground Rip01_4
   - first:
-      213: 6388096855300504023
-    second: Pang Slash Atk (1)_5
+      213: -9046357619978240290
+    second: Pang Boss Ground Rip01_5
   - first:
-      213: 2887580110636804744
-    second: Pang Slash Atk (1)_6
+      213: -5400955173050844179
+    second: Pang Boss Ground Rip01_6
   - first:
-      213: -2286556423723314094
-    second: Pang Slash Atk (1)_7
+      213: 7360646824333569207
+    second: Pang Boss Ground Rip01_7
   - first:
-      213: -4593761983759087420
-    second: Pang Slash Atk (1)_8
+      213: 7594202347078711307
+    second: Pang Boss Ground Rip01_8
   - first:
-      213: -5057680598690891804
-    second: Pang Slash Atk (1)_9
+      213: 2967799532220186750
+    second: Pang Boss Ground Rip01_9
   - first:
-      213: -5403081433158894099
-    second: Pang Slash Atk (1)_10
+      213: 2592588549101777474
+    second: Pang Boss Ground Rip01_10
   - first:
-      213: -3767826080059249547
-    second: Pang Slash Atk (1)_11
+      213: 5756572959224195168
+    second: Pang Boss Ground Rip01_11
   - first:
-      213: 8964857880735401740
-    second: Pang Slash Atk (1)_0
+      213: 1982821255748354943
+    second: Pang Boss Ground Rip01_12
   - first:
-      213: -450365255109236907
-    second: Pang Slash Atk (1)_1
+      213: 2797300714967361379
+    second: Pang Boss Ground Rip01_13
   - first:
-      213: -1499942805878803072
-    second: Pang Slash Atk (1)_2
-  - first:
-      213: -5098640287281354787
-    second: Pang Slash Atk (1)_3
-  - first:
-      213: -5544072404416849927
-    second: Pang Slash Atk (1)_4
-  - first:
-      213: 2208690274049493038
-    second: Pang Slash Atk (1)_5
-  - first:
-      213: -4528158069856341507
-    second: Pang Slash Atk (1)_6
-  - first:
-      213: -6930462182334958851
-    second: Pang Slash Atk (1)_7
-  - first:
-      213: -5357817165007547741
-    second: Pang Slash Atk (1)_8
-  - first:
-      213: -3071501543775558241
-    second: Pang Slash Atk (1)_9
+      213: -5512863847588449282
+    second: Pang Boss Ground Rip01_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -167,7 +146,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_0
+      name: Pang Boss Ground Rip01_0
       rect:
         serializedVersion: 2
         x: 0
@@ -181,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c074813aeb2996c70800000000000000
-      internalID: 8964857880735401740
+      spriteID: cdf821757e06ed560800000000000000
+      internalID: 7340410989375033308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_1
+      name: Pang Boss Ground Rip01_1
       rect:
         serializedVersion: 2
         x: 100
@@ -202,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5572906cf2bffb9f0800000000000000
-      internalID: -450365255109236907
+      spriteID: c7c65febcc84f2840800000000000000
+      internalID: 5201456138850495612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_2
+      name: Pang Boss Ground Rip01_2
       rect:
         serializedVersion: 2
         x: 200
@@ -223,14 +202,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 085f03017f12f2be0800000000000000
-      internalID: -1499942805878803072
+      spriteID: f105275aa5a8877b0800000000000000
+      internalID: -5226275245636038625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_3
+      name: Pang Boss Ground Rip01_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dc161299c872580800000000000000
+      internalID: -8851951953255477881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip01_4
       rect:
         serializedVersion: 2
         x: 0
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd769172cadfd39b0800000000000000
-      internalID: -5098640287281354787
+      spriteID: 2bd406aee2ce02640800000000000000
+      internalID: 5053298468154527154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_4
+      name: Pang Boss Ground Rip01_5
       rect:
         serializedVersion: 2
         x: 100
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f710bd958f7f03b0800000000000000
-      internalID: -5544072404416849927
+      spriteID: ede7c0e9ca1e47280800000000000000
+      internalID: -9046357619978240290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_5
+      name: Pang Boss Ground Rip01_6
       rect:
         serializedVersion: 2
         x: 200
@@ -286,14 +286,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2884932a18d6ae10800000000000000
-      internalID: 2208690274049493038
+      spriteID: debfe76b2e3fb05b0800000000000000
+      internalID: -5400955173050844179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_6
+      name: Pang Boss Ground Rip01_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc6281d945462660800000000000000
+      internalID: 7360646824333569207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip01_8
       rect:
         serializedVersion: 2
         x: 0
@@ -307,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df1f4670a30c821c0800000000000000
-      internalID: -4528158069856341507
+      spriteID: b0870128cc6046960800000000000000
+      internalID: 7594202347078711307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_7
+      name: Pang Boss Ground Rip01_9
       rect:
         serializedVersion: 2
         x: 100
@@ -328,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df275a44d5d02df90800000000000000
-      internalID: -6930462182334958851
+      spriteID: e700e8253fdbf2920800000000000000
+      internalID: 2967799532220186750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_8
+      name: Pang Boss Ground Rip01_10
       rect:
         serializedVersion: 2
         x: 200
@@ -349,14 +370,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a21c34eca535a5b0800000000000000
-      internalID: -5357817165007547741
+      spriteID: 242f4fd9c89baf320800000000000000
+      internalID: 2592588549101777474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_9
+      name: Pang Boss Ground Rip01_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0686d265b9473ef40800000000000000
+      internalID: 5756572959224195168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip01_12
       rect:
         serializedVersion: 2
         x: 0
@@ -370,8 +412,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f95a1349e95df55d0800000000000000
-      internalID: -3071501543775558241
+      spriteID: f7389f93d65648b10800000000000000
+      internalID: 1982821255748354943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip01_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3676395fd2202d620800000000000000
+      internalID: 2797300714967361379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pang Boss Ground Rip01_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3b56df98f5e73b0800000000000000
+      internalID: -5512863847588449282
       vertices: []
       indices: 
       edges: []
