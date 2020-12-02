@@ -26,6 +26,10 @@ public class Projectile : MonoBehaviour
             {
                 hitInfo.collider.GetComponent<EnemyAllinOne>().TakeDamage(damage);
             }
+            if (hitInfo.collider.CompareTag("Boss"))
+            {
+                hitInfo.collider.GetComponent<PangBoss>().TakeDamage(damage);
+            }
             DestroyProjectile();
         }
 

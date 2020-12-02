@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerSpawn : MonoBehaviour
 {
     public Vector3 playerSpawnPoint;
-    public GameObject player;
-    public PlayerAllinOne playerAllInOne;
+    private GameObject player;
+    private PlayerAllinOne playerAllInOne;
 
 
 
