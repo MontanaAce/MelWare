@@ -13,10 +13,16 @@ public class Doorways : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        doorways.SetActive(false);
+        if (collision.CompareTag("Player"))
+        {
+            doorways.SetActive(false);
+        }
     }
     public void OnTriggerExit2D(Collider2D collision)
     {
-        doorways.SetActive(true);
+        if (collision.CompareTag("Player"))
+        {
+            doorways.SetActive(true);
+        }
     }
 }

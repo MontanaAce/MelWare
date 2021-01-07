@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 20
-  productGUID: 1ed02943b0d407c47aec96d930d87b9c
+  productGUID: f41b12d9f01ce2142810a51eaa35ebf4
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -42,8 +42,8 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1920
-  defaultScreenHeight: 1080
+  defaultScreenWidth: 1024
+  defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -164,7 +164,7 @@ PlayerSettings:
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
-  targetPixelDensity: 30
+  targetPixelDensity: 0
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
@@ -186,10 +186,10 @@ PlayerSettings:
   StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 11.0
+  iOSTargetOSVersionString: 
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
-  tvOSTargetOSVersionString: 11.0
+  tvOSTargetOSVersionString: 
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -241,9 +241,9 @@ PlayerSettings:
   iOSRequireARKit: 0
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
-  clonedFromGUID: 10ad67313f4034357812315f3c407484
-  templatePackageId: com.unity.template.2d@4.0.2
-  templateDefaultScene: Assets/Scenes/SampleScene.unity
+  clonedFromGUID: 00000000000000000000000000000000
+  templatePackageId: 
+  templateDefaultScene: 
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -269,38 +269,9 @@ PlayerSettings:
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching: []
-  m_BuildTargetGraphicsJobs:
-  - m_BuildTarget: MacStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: Switch
-    m_GraphicsJobs: 0
-  - m_BuildTarget: MetroSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: AppleTVSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: BJMSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: LinuxStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: PS4Player
-    m_GraphicsJobs: 0
-  - m_BuildTarget: iOSSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: WindowsStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: XboxOnePlayer
-    m_GraphicsJobs: 0
-  - m_BuildTarget: LuminSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: AndroidPlayer
-    m_GraphicsJobs: 0
-  - m_BuildTarget: WebGLSupport
-    m_GraphicsJobs: 0
+  m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
-  m_BuildTargetGraphicsAPIs:
-  - m_BuildTarget: AndroidPlayer
-    m_APIs: 150000000b000000
-    m_Automatic: 0
+  m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -493,7 +464,7 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
-  ps4Passcode: bi9UOuSpM2Tlh01vOzwvSikHFswuzleh
+  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -548,40 +519,39 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
-    4: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
-    7: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
-    13: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
-    14: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
-    19: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
-    21: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
-    25: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
-    27: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
-    28: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
-    29: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER
+    1: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+    4: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+    7: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+    13: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+    14: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+    19: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+    21: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+    25: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+    27: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+    28: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+    29: ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_0;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
-  allowUnsafeCode: 1
+  allowUnsafeCode: 0
   useDeterministicCompilation: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 1
   gcWBarrierValidation: 0
-  apiCompatibilityLevelPerPlatform:
-    Standalone: 3
+  apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 2D_BuiltInRenderer
+  metroPackageName: MelWare
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 2D_BuiltInRenderer
+  metroApplicationDescription: MelWare
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -630,13 +600,7 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    Analytics: 1
-    Build: 0
-    Collab: 0
-    Game Performance: 0
-    Purchasing: 0
-    Unity Ads: 0
+  cloudServicesEnabled: {}
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -649,10 +613,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 27b1ef85-2487-4e38-8dae-72d085baa1df
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: MelWare
-  organizationId: natebond007
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

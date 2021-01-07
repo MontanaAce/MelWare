@@ -13,7 +13,11 @@ public class PangBoss : MonoBehaviour
     public GameObject deathEffect;
     //private float timeBtwDamage = 1.5f;
     public Text healthText;
-
+    public bool isActing = false;
+    public Vector3 startpos;
+    public Vector3 endpos;
+    public float duration = 5;
+    private float time;
     public Animator anim;
     private void Start()
     {
@@ -28,12 +32,39 @@ public class PangBoss : MonoBehaviour
         {
             UpdateText();
         }
-        if (health <= 0)
+        
+        if (isActing == false)
         {
-            ObjectPool.Spawn(deathEffect, transform.position, Quaternion.identity);
+            if (health <= 0)
+            {
+                anim.Play("Death");
+                StartCoroutine(waitForDeath());
+            }
+            i = Random.Range(0, 4);
+            if (i == 0)
+            {
+                anim.Play("Idle");
+                StartCoroutine(WaitForAnim());
+            }
+            else if (i == 1)
+            {
+                anim.Play("Roll");
+                StartCoroutine(WaitForRoll());
+            }
+            else if (i == 2)
+            {
+                anim.Play("Slash");
+                StartCoroutine(WaitForAnim());
+            }
+            else
+            {
+                anim.Play("Flip");
+                StartCoroutine(WaitForAnim());
+            }
         }
-        i = Random.Range(1, 21);
-        if(i == 1 || i == 2 || i == 3 || i == 4 || i == 5)
+        
+
+        /*if(i == 1 || i == 2 || i == 3 || i == 4 || i == 5)
         {
             anim.SetBool("Idling", false);
             anim.SetBool("Rolling", false);
@@ -64,7 +95,7 @@ public class PangBoss : MonoBehaviour
             anim.SetBool("Flipping", false);
             anim.SetBool("Rolling", true);
             StartCoroutine(WaitForAnim());
-        }
+        }*/
     }
     public void UpdateText()
     {
@@ -77,6 +108,38 @@ public class PangBoss : MonoBehaviour
     }
     public IEnumerator WaitForAnim()
     {
+        isActing = true;
         yield return new WaitForSeconds(animDur);
+        isActing = false;
+    }
+
+    public IEnumerator WaitForRoll()
+    {
+        isActing = true;
+        Vector3 startingPos = transform.position;
+        while(time < 5)
+        {
+            time += 1;
+            Vector3.Lerp(startingPos, endpos, duration);
+            yield return null;
+        }
+        time = 0;
+        startingPos = transform.position;
+        while (time < 5)
+        {
+            time += 1;
+            Vector3.Lerp(startingPos, startpos, duration);
+            yield return null;
+        }
+        time = 0;
+        isActing = false;
+    }
+
+    public IEnumerator waitForDeath()
+    {
+        isActing = true;
+        yield return new WaitForSeconds(3);
+        gameObject.SetActive(false);
+        isActing = false;
     }
 }
