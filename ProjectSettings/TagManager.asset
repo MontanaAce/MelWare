@@ -4,16 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Ground
   - Lower camera limit
   - Environment
-  - PauseMenu
-  - Ground
   - Enemy
-  - PlayerSpawn
-  - Doorways
   - Cracked Wall
   - Boss
-  - Weapon
+  - PauseMenu
+  - PlayerSpawn
   layers:
   - Default
   - TransparentFX
@@ -28,6 +26,7 @@ TagManager:
   - Projectile
   - Boss
   - Environment
+  - 
   - 
   - 
   - 

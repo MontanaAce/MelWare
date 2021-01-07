@@ -1,73 +1,67 @@
 fileFormatVersion: 2
-guid: 0baf4894d27b5ce41b5859766cf2f255
+guid: 52a81e0f88f371540833e65fe0e80ed4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8096869132118109094
-    second: Pang Slash Atk (1)_0
+      213: -6931091469513867007
+    second: Pang Slash Atk_0
   - first:
-      213: 5461676775850656399
-    second: Pang Slash Atk (1)_1
+      213: -7619504644865548480
+    second: Pang Slash Atk_1
   - first:
-      213: -2908064316795284047
-    second: Pang Slash Atk (1)_2
+      213: 5156015899790357983
+    second: Pang Slash Atk_2
   - first:
-      213: -3379652883974447618
-    second: Pang Slash Atk (1)_3
+      213: -6353059955578047919
+    second: Pang Slash Atk_3
   - first:
-      213: -6657098724528363734
-    second: Pang Slash Atk (1)_4
+      213: 7316390879594871079
+    second: Pang Slash Atk_4
   - first:
-      213: 6388096855300504023
-    second: Pang Slash Atk (1)_5
+      213: 7068186104048619460
+    second: Pang Slash Atk_5
   - first:
-      213: 2887580110636804744
-    second: Pang Slash Atk (1)_6
+      213: -6006956479812765428
+    second: Pang Slash Atk_6
   - first:
-      213: -2286556423723314094
-    second: Pang Slash Atk (1)_7
+      213: 3414737124848983072
+    second: Pang Slash Atk_7
   - first:
-      213: -4593761983759087420
-    second: Pang Slash Atk (1)_8
+      213: -3259359516823516119
+    second: Pang Slash Atk_8
   - first:
-      213: -5057680598690891804
-    second: Pang Slash Atk (1)_9
+      213: -4730131356272164466
+    second: Pang Slash Atk_9
   - first:
-      213: -5403081433158894099
-    second: Pang Slash Atk (1)_10
+      213: -5792056424628392079
+    second: Pang Slash Atk_0
   - first:
-      213: -3767826080059249547
-    second: Pang Slash Atk (1)_11
+      213: -5916994879228939133
+    second: Pang Slash Atk_1
   - first:
-      213: 8964857880735401740
-    second: Pang Slash Atk (1)_0
+      213: 9120621734323798247
+    second: Pang Slash Atk_2
   - first:
-      213: -450365255109236907
-    second: Pang Slash Atk (1)_1
+      213: 6365984610935150600
+    second: Pang Slash Atk_3
   - first:
-      213: -1499942805878803072
-    second: Pang Slash Atk (1)_2
+      213: 2298246474726359890
+    second: Pang Slash Atk_4
   - first:
-      213: -5098640287281354787
-    second: Pang Slash Atk (1)_3
+      213: 4898595063756251702
+    second: Pang Slash Atk_5
   - first:
-      213: -5544072404416849927
-    second: Pang Slash Atk (1)_4
+      213: -8994649761179387308
+    second: Pang Slash Atk_6
   - first:
-      213: 2208690274049493038
-    second: Pang Slash Atk (1)_5
+      213: 6620937746758017777
+    second: Pang Slash Atk_7
   - first:
-      213: -4528158069856341507
-    second: Pang Slash Atk (1)_6
+      213: 8442210630383878105
+    second: Pang Slash Atk_8
   - first:
-      213: -6930462182334958851
-    second: Pang Slash Atk (1)_7
-  - first:
-      213: -5357817165007547741
-    second: Pang Slash Atk (1)_8
-  - first:
-      213: -3071501543775558241
-    second: Pang Slash Atk (1)_9
+      213: 7504461239651743511
+    second: Pang Slash Atk_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -167,13 +161,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_0
+      name: Pang Slash Atk_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 300
-        width: 100
-        height: 100
+        x: 20
+        y: 273
+        width: 75
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c074813aeb2996c70800000000000000
-      internalID: 8964857880735401740
+      spriteID: 17f61039e5b7e9fa0800000000000000
+      internalID: -5792056424628392079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_1
+      name: Pang Slash Atk_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 300
-        width: 100
-        height: 100
+        x: 115
+        y: 272
+        width: 75
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5572906cf2bffb9f0800000000000000
-      internalID: -450365255109236907
+      spriteID: 384f0c5c18c92eda0800000000000000
+      internalID: -5916994879228939133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_2
+      name: Pang Slash Atk_2
       rect:
         serializedVersion: 2
-        x: 200
-        y: 300
-        width: 100
-        height: 100
+        x: 210
+        y: 272
+        width: 75
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 085f03017f12f2be0800000000000000
-      internalID: -1499942805878803072
+      spriteID: 7e0c31de425f29e70800000000000000
+      internalID: 9120621734323798247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_3
+      name: Pang Slash Atk_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 200
-        width: 100
-        height: 100
+        x: 20
+        y: 182
+        width: 75
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd769172cadfd39b0800000000000000
-      internalID: -5098640287281354787
+      spriteID: 80894647645885850800000000000000
+      internalID: 6365984610935150600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_4
+      name: Pang Slash Atk_4
       rect:
         serializedVersion: 2
-        x: 100
-        y: 200
-        width: 100
-        height: 100
+        x: 115
+        y: 182
+        width: 75
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f710bd958f7f03b0800000000000000
-      internalID: -5544072404416849927
+      spriteID: 253cb5cfdf205ef10800000000000000
+      internalID: 2298246474726359890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_5
+      name: Pang Slash Atk_5
       rect:
         serializedVersion: 2
-        x: 200
-        y: 200
-        width: 100
-        height: 100
+        x: 196
+        y: 181
+        width: 89
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2884932a18d6ae10800000000000000
-      internalID: 2208690274049493038
+      spriteID: 6326ca1b14e4bf340800000000000000
+      internalID: 4898595063756251702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_6
+      name: Pang Slash Atk_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 100
-        width: 100
-        height: 100
+        x: 6
+        y: 91
+        width: 89
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df1f4670a30c821c0800000000000000
-      internalID: -4528158069856341507
+      spriteID: 45ab9d9a2b59c2380800000000000000
+      internalID: -8994649761179387308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_7
+      name: Pang Slash Atk_7
       rect:
         serializedVersion: 2
-        x: 100
-        y: 100
-        width: 100
-        height: 100
+        x: 95
+        y: 90
+        width: 95
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +322,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df275a44d5d02df90800000000000000
-      internalID: -6930462182334958851
+      spriteID: 1f2ac7b2dcb42eb50800000000000000
+      internalID: 6620937746758017777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_8
+      name: Pang Slash Atk_8
       rect:
         serializedVersion: 2
-        x: 200
-        y: 100
-        width: 100
-        height: 100
+        x: 190
+        y: 91
+        width: 95
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +343,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a21c34eca535a5b0800000000000000
-      internalID: -5357817165007547741
+      spriteID: 9dfbe0fe6d1c82570800000000000000
+      internalID: 8442210630383878105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pang Slash Atk (1)_9
+      name: Pang Slash Atk_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 100
+        x: 10
+        y: 2
+        width: 85
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,8 +364,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f95a1349e95df55d0800000000000000
-      internalID: -3071501543775558241
+      spriteID: 7173124bcb3352860800000000000000
+      internalID: 7504461239651743511
       vertices: []
       indices: 
       edges: []
